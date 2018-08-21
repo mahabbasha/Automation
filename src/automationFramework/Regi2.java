@@ -20,8 +20,8 @@ public class Regi2 {
 	@DataProvider(name = "addMethodDataProvider")
 	public Object[][] dataProvider() {
 		Object data1[][];
-		data1 = new Object[][] { { "firstname", "lastname", "preprodestcutomer09", "Welcome@123", "preprodest09@yopmail.com", "4234234",
-				"preprodestcompany09", "title09", "address", "abcd.com", "guntur", "23323", "1", "2" } };
+		data1 = new Object[][] { { "firstname", "lastname", "jenkinsautomate01", "Welcome@123", "jenkinsautomate01@yopmail.com", "4234234",
+				"jenkinscompany09", "title09", "address", "abcd.com", "guntur", "23323", "1", "2" } };
 		return data1;
 	}
 	@Test(dataProvider = "addMethodDataProvider")
