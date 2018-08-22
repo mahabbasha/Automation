@@ -3,6 +3,26 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
+      <class name="automationFramework.Root">
+        <methods>
+          <include name="Datasheet_Download_By_Customer"/>
+          <include name="Customer_RegistrationApproval"/>
+          <include name="ChangeRoleToLicensed"/>
+          <include name="Admin_Login_ProductBrief_Upload"/>
+          <include name="RE_Release_Upload"/>
+          <include name="CMLoginAndReleaseApproval"/>
+          <include name="ProductBrief_Download_By_Customer"/>
+          <include name="approveIP"/>
+          <include name="Admin_Login_Datasheet_Upload"/>
+          <include name="CustomerDownloads"/>
+          <include name="Check_License_History"/>
+          <include name="BD_Login_And_Ip_Approval"/>
+          <include name="BD_Approve_Datasheet"/>
+          <include name="IPRequest"/>
+          <include name="preRequisites"/>
+          <include name="CustomerLogin"/>
+        </methods>
+      </class> <!-- automationFramework.Root -->
       <class name="automationFramework.Regi2">
         <methods>
           <include name="regi" invocation-numbers="0"/>

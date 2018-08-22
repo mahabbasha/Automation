@@ -3,8 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="automationFramework.Root"/>
+      
       <class name="automationFramework.Regi2"/>
+      <class name="automationFramework.Root"/>
     </classes>
  </test> <!-- Test -->
 </suite> <!-- Suite -->
